@@ -4,7 +4,12 @@ import { Link } from "react-router-dom";
 export const PageTwo = () => {
   return (
     <div className="page-two">
-      <h2 className="page-two-h2">Page 2</h2>
+      <div className="page-two-h2">
+        <h2>Page 2</h2>
+        <Link to="/" className="back-btn link">
+          Back
+        </Link>
+      </div>
 
       <img
         className="profile-img"
@@ -25,9 +30,6 @@ export const PageTwo = () => {
         Apart from coding I love to travel and explore food. When not traveling,
         I enjoy going on a road trip with my friends.
       </div>
-      <Link to="/" className="back-btn link">
-        Back
-      </Link>
     </div>
   );
 };

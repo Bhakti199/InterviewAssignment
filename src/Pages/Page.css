@@ -33,17 +33,15 @@
 }
 .page-two-h2 {
   position: fixed;
-  top: 2rem;
+  top: 1rem;
   left: 2rem;
   margin-top: 0;
 }
 .back-btn {
-  position: fixed;
-  bottom: 4rem;
-  left: 2rem;
   padding: 0.5rem 2rem;
   color: var(--black-color);
   border: 1px solid var(--black-color);
+  background-color: var(--white-color);
   border-radius: 3px;
 }
 @media screen and (max-width: 800px) {
