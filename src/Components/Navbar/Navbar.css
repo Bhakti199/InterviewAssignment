@@ -1,0 +1,21 @@
+.navbar {
+  background-color: var(--black-color);
+  color: var(--white-color);
+  height: 5rem;
+  gap: 10px;
+  padding: 10px;
+}
+.navbar-inputs {
+  gap: 10px;
+}
+.navbar-part-one {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.navbar-note {
+  color: var(--orange-color);
+}
+.clock {
+  justify-content: center;
+}
